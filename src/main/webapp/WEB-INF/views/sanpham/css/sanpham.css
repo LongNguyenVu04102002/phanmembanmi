@@ -1,0 +1,34 @@
+.header{
+    height: 80px;
+    background-image: linear-gradient(0,red,orange);
+}
+
+.header_navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+
+.header_navbar-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.header_navbar-item{
+    display: inline-block;
+}
+
+.nav-under{
+    height: 60px;
+    background: black;
+    color: aliceblue;
+    white-space: nowrap;
+    justify-content: space-between;
+    /*margin-left: 40px;*/
+    /*display: inline-block;*/
+}
+.mapp{
+    margin-left: 70px;
+    list-style: none; display: inline-block;
+}
